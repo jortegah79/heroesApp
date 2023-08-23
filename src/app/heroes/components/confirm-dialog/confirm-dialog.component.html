@@ -1,0 +1,12 @@
+
+<h1 mat-dialog-title>Estas seguro?</h1>
+<div mat-dialog-content >
+  <p>El proceso es irreversible. Estás a punto de eliminar a {{data.superhero}}</p>
+
+</div>
+<div mat-dialog-actions class="justify-content-evenly">
+   <button style="background: red;color:white;"color="warn"mat-button (click)="onNoClick()">Cancelar</button>
+
+  <button style="background:green;color:white;"mat-button (click)="onConfirmClick()" cdkFocusInitial>Aceptar</button>
+</div>
+
