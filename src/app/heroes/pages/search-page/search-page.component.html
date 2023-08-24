@@ -6,9 +6,7 @@
     <mat-label>Buscador de heroes</mat-label>
     <input type="text" matInput [formControl]="searchInput" (input)="searchHero()" [matAutocomplete]="auto">
 
-    <mat-autocomplete autoActiveFirstOption
-    #auto="matAutocomplete"
-    (optionSelected)="onSelectedOption( $event)">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onSelectedOption( $event)">
       <mat-option *ngFor="let hero of heroes" [value]="hero">
         {{hero.superhero}}
       </mat-option>
@@ -18,5 +16,7 @@
     </mat-autocomplete>
   </mat-form-field>
 
-  {{selectedHero | json}}
+  <div *ngIf="selectedHero !=undefined" class="col-3 ">
+    <heroes-card [hero]="selectedHero"></heroes-card>
+  </div>
 </div>

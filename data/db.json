@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -14,6 +14,14 @@
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
       "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
     },
     {
       "id": "dc-flash",
@@ -38,6 +46,14 @@
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
       "characters": "Oliver Queen"
+    },
+    {
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8",
+      "characters": "Princess Diana"
     },
     {
       "id": "dc-martian",
@@ -150,15 +166,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "-l8Aq4D",
-      "superhero": "juan",
-      "publisher": "DC Comics",
-      "alter_ego": "ortega",
-      "first_appearance": "ya",
-      "characters": "johny",
-      "alt_img": "https://media.gettyimages.com/id/85344268/es/foto/ninja-guarding-server-room.jpg?s=2048x2048&w=gi&k=20&c=ETZ_dzVZI55WX0Prwyy7w-FxEXYp6bCy9e3USNSnTOE="
     }
   ]
 }
